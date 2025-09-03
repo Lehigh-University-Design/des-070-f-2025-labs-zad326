@@ -1,0 +1,43 @@
+
+:root {
+    --color-light: #eaeded;
+    --color-dark: #221919;
+    --color-accent: #31bde4;
+    --color-background: #cc9ad0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: var(--color-dark);
+    background-color: var(--color-background);
+}
+
+main{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h3 a {
+    color: var(--color-dark);
+    text-decoration: none;
+}
+
+.post {
+    padding: 20px;
+    border: 2px solid var(--color-dark);
+}
+
+.post a {
+    color: var(--color-dark);
+    background-color: var(--color-accent);
+}
+
+footer {
+    text-align: center;
+}
+
