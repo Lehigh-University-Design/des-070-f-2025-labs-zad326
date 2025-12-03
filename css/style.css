@@ -27,17 +27,39 @@ header h3 a {
     text-decoration: none;
 }
 
+footer {
+    text-align: center;
+}
+
+/* Lab 1 Styles */
+
 .post {
     padding: 20px;
     border: 2px solid var(--color-dark);
+    margin-bottom: 20px;
+
+    a {
+        color: var(--color-dark);
+        background-color: var(--color-accent);
+    }
 }
 
-.post a {
-    color: var(--color-dark);
+.highlight {
     background-color: var(--color-accent);
+    color: var(--color-light);
+    padding: 5px;
 }
 
-footer {
-    text-align: center;
+#special-post {
+    background-color: var(--color-light);
+}
+
+.special-headline {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+
+#unique-headline {
+    color: var(--color-accent);
 }
 
